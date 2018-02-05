@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A603E6962025F56A00A13BEF /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603E6952025F56A00A13BEF /* AlertService.swift */; };
+		A622E0D42028C4AF000C81F9 /* NotificationAttachmentID.swift in Sources */ = {isa = PBXBuildFile; fileRef = A622E0D32028C4AF000C81F9 /* NotificationAttachmentID.swift */; };
+		A622E0D62029018B000C81F9 /* DateAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = A622E0D52029018B000C81F9 /* DateAlert.png */; };
+		A622E0D8202901A9000C81F9 /* LocationAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = A622E0D7202901A9000C81F9 /* LocationAlert.png */; };
+		A622E0DA202901B0000C81F9 /* TimeAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = A622E0D9202901B0000C81F9 /* TimeAlert.png */; };
 		A64C7D3A20266AFD00431D98 /* CLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C7D3920266AFD00431D98 /* CLService.swift */; };
 		A6672BC3200F9A2B00165912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6672BC2200F9A2B00165912 /* AppDelegate.swift */; };
 		A6672BC5200F9A2C00165912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6672BC4200F9A2C00165912 /* ViewController.swift */; };
@@ -20,6 +24,10 @@
 
 /* Begin PBXFileReference section */
 		A603E6952025F56A00A13BEF /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		A622E0D32028C4AF000C81F9 /* NotificationAttachmentID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAttachmentID.swift; sourceTree = "<group>"; };
+		A622E0D52029018B000C81F9 /* DateAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DateAlert.png; path = ../../../../../../Downloads/Project/Remind/DateAlert.png; sourceTree = "<group>"; };
+		A622E0D7202901A9000C81F9 /* LocationAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LocationAlert.png; path = ../../../../../../Downloads/Project/Remind/LocationAlert.png; sourceTree = "<group>"; };
+		A622E0D9202901B0000C81F9 /* TimeAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TimeAlert.png; path = ../../../../../../Downloads/Project/Remind/TimeAlert.png; sourceTree = "<group>"; };
 		A64C7D3920266AFD00431D98 /* CLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLService.swift; sourceTree = "<group>"; };
 		A6672BBF200F9A2B00165912 /* Update.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Update.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6672BC2200F9A2B00165912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +113,7 @@
 		A6672BD7200F9AEB00165912 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A622E0D32028C4AF000C81F9 /* NotificationAttachmentID.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -112,6 +121,9 @@
 		A6672BDA200FB30900165912 /* NotificationAssets */ = {
 			isa = PBXGroup;
 			children = (
+				A622E0D52029018B000C81F9 /* DateAlert.png */,
+				A622E0D7202901A9000C81F9 /* LocationAlert.png */,
+				A622E0D9202901B0000C81F9 /* TimeAlert.png */,
 			);
 			path = NotificationAssets;
 			sourceTree = "<group>";
@@ -177,7 +189,10 @@
 			files = (
 				A6672BCD200F9A2C00165912 /* LaunchScreen.storyboard in Resources */,
 				A6672BCA200F9A2C00165912 /* Assets.xcassets in Resources */,
+				A622E0D8202901A9000C81F9 /* LocationAlert.png in Resources */,
+				A622E0D62029018B000C81F9 /* DateAlert.png in Resources */,
 				A6672BC8200F9A2C00165912 /* Main.storyboard in Resources */,
+				A622E0DA202901B0000C81F9 /* TimeAlert.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A622E0D42028C4AF000C81F9 /* NotificationAttachmentID.swift in Sources */,
 				A64C7D3A20266AFD00431D98 /* CLService.swift in Sources */,
 				A6672BD9200F9F6300165912 /* ShadowView.swift in Sources */,
 				A6672BC5200F9A2C00165912 /* ViewController.swift in Sources */,
