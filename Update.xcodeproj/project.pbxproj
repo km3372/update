@@ -13,6 +13,8 @@
 		A622E0D8202901A9000C81F9 /* LocationAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = A622E0D7202901A9000C81F9 /* LocationAlert.png */; };
 		A622E0DA202901B0000C81F9 /* TimeAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = A622E0D9202901B0000C81F9 /* TimeAlert.png */; };
 		A64C7D3A20266AFD00431D98 /* CLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C7D3920266AFD00431D98 /* CLService.swift */; };
+		A65651D7202A261C009005F8 /* NotificationActionID.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65651D6202A261C009005F8 /* NotificationActionID.swift */; };
+		A65651D9202A29F0009005F8 /* NotificationCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65651D8202A29F0009005F8 /* NotificationCategory.swift */; };
 		A6672BC3200F9A2B00165912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6672BC2200F9A2B00165912 /* AppDelegate.swift */; };
 		A6672BC5200F9A2C00165912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6672BC4200F9A2C00165912 /* ViewController.swift */; };
 		A6672BC8200F9A2C00165912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6672BC6200F9A2C00165912 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 		A622E0D7202901A9000C81F9 /* LocationAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LocationAlert.png; path = ../../../../../../Downloads/Project/Remind/LocationAlert.png; sourceTree = "<group>"; };
 		A622E0D9202901B0000C81F9 /* TimeAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TimeAlert.png; path = ../../../../../../Downloads/Project/Remind/TimeAlert.png; sourceTree = "<group>"; };
 		A64C7D3920266AFD00431D98 /* CLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLService.swift; sourceTree = "<group>"; };
+		A65651D6202A261C009005F8 /* NotificationActionID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationActionID.swift; sourceTree = "<group>"; };
+		A65651D8202A29F0009005F8 /* NotificationCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCategory.swift; sourceTree = "<group>"; };
 		A6672BBF200F9A2B00165912 /* Update.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Update.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6672BC2200F9A2B00165912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6672BC4200F9A2C00165912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				A622E0D32028C4AF000C81F9 /* NotificationAttachmentID.swift */,
+				A65651D6202A261C009005F8 /* NotificationActionID.swift */,
+				A65651D8202A29F0009005F8 /* NotificationCategory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -210,6 +216,8 @@
 				A6672BE2200FE4C200165912 /* UNService.swift in Sources */,
 				A6672BC3200F9A2B00165912 /* AppDelegate.swift in Sources */,
 				A603E6962025F56A00A13BEF /* AlertService.swift in Sources */,
+				A65651D7202A261C009005F8 /* NotificationActionID.swift in Sources */,
+				A65651D9202A29F0009005F8 /* NotificationCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
